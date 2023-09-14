@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+}
+
+.titleEffects {
+    font-size: 50px;
+
+    text-shadow:
+                 0 0 20px rgb(255, 255, 255),
+                 0 0 40px rgb(255, 255, 255),
+                 0 0 80px rgb(255, 255, 255),
+                 0 0 120px rgb(255, 255, 255);
+}
+
+@media (max-width:971px) {
+    .titleEffects {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:843px) {
+    .titleEffects {
+        font-size: 37px;
+    }
+}
+
+@media (max-width:767px) {
+    .titleEffects {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .titleEffects {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:707px) {
+    .titleEffects {
+        font-size: 33px;
+    }
+}
+
+@media (max-width:654px) {
+    .titleEffects {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:590px) {
+    .titleEffects {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:414px) {
+    .titleEffects {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:393px) {
+    .titleEffects {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:360px) {
+    .titleEffects {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:280px) {
+    .titleEffects {
+        font-size: 13px;
+    }
+}
+
+.gbDocsButton {
+    font-weight: 1;
+
+    border-style: none;
+    background-color: transparent;
+
+    transition: all 0.3s ease;
+}
+
+.gbDocsButton:hover {
+    transform: scale(1.2);
+    font-size: 60px;
+}
