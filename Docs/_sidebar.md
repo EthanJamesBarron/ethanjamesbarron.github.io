@@ -1,2 +1,0 @@
-- Creatures
-    - [Limbs](./Creatures/Limb.md)
