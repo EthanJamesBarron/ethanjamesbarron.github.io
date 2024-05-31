@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "-": "^0.0.1",
-    "docsify-cli": "^4.4.4"
+    "docsify-cli": "^4.4.4",
+    "docsify-darklight-theme": "^3.2.0"
   }
 }
