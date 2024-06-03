@@ -21,6 +21,12 @@ body {
     box-shadow: black 5px 5px 3px;
     background-color: transparent;
     user-select: none;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 0.2s;
 }
 
 .AlignCenter {
@@ -28,24 +34,20 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: left;
 }
 
-button {
-    width: fit-content;
-    border: 0.125em solid;
-    padding: 0.5em 0.5em;
 
-    box-shadow: black 5px 5px 3px;
-    background-color: #201c34;
-    
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-duration: 0.2s;
+
+.Array {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
 }
 
-button:hover {
-    padding-top: -0.5em;
-    padding: 1em 1em;
-    background-color: #352e56;
-
-    cursor: grab;
+a {
+    color: cornflowerblue;
+    text-decoration: none;
 }
